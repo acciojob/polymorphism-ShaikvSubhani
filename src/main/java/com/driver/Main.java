@@ -2,29 +2,16 @@ package com.driver;
 
 public class Main {
     public static class Product{
-            int x;
-            int y;
-            int z;
-           public Product()
-            {
-                this.x=x;
-                this.y=y;
-                this.z=z;
-            }
-        public int Product(int x,int y)
+
+        public static int Product(int x,int y)
         {
-            this.x=x;
-            this.y=y;
             return x*y;
         }
-        public int Product(int x,int y,int z)
+        public static int Product(int x,int y,int z)
         {
-            this.x=x;
-            this.y=y;
-            this.z=z;
             return x*y*z;
         }
-        public double Product(double x,double y)
+        public static double Product(double x,double y)
         {
             return x*y;
         }
